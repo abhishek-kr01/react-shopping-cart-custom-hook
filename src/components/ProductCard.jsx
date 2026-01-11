@@ -2,7 +2,7 @@ import {FaShoppingCart} from 'react-icons/fa'
 
 function ProductCard({product, onAddToCard}) {
   return (
-    <div className='product-cart'>
+    <div className='product-card'>
       <h3>{product.name}</h3>
       <p className='price'>${product.price}</p>
       <button onClick={() => onAddToCard(product)}>
